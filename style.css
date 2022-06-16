@@ -1,0 +1,124 @@
+* { margin: 0; padding: 0; }
+
+
+/* Estilos generales */
+
+section { padding: 10vh; }
+
+p { color: #471829; font-family: 'Montserrat', sans-serif; }
+
+a { color: #987782; font-family: 'Montserrat', sans-serif; }
+
+a:hover { font-weight: bolder; }
+
+ul { list-style: none; }
+
+.bg_primary { background-color: #ead0e1; }
+
+.bg_secondary { background-color: #f5ecef; }
+
+.content_center {
+    align-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    color: #471829;
+    font-family: 'Tiro Telugu', serif;
+    font-size: 5vh;
+    margin-bottom: 1rem;
+}
+
+.small_text { font-size: 1.5vh; }
+
+/* Estilos para header */
+
+.header_list {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: 2vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 8vh;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+}
+
+.header_logo {
+    height: 2rem;
+    margin: 1%;
+}
+
+/* Estilos para la primera sección */
+
+.section_img { width: 80vh; }
+
+.description { width: 90vh; }
+
+.border_bottom { border-bottom: 2px #cacaca solid; }
+
+/* Estilos para sección: Historia */
+
+.history_descriptions { display: inline-block; }
+.history_icons { height: 13vh; }
+.history_img { height: 90vh; }
+
+/* Estilos para sección: Productos */
+
+.grid-container_products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.products_card {
+    background-color: #f5ecef;
+    margin: 4vh;
+    padding: 2vh;
+    width: 40vh;
+}
+
+.products_card_img { height: 40vh; }
+
+/* Estilos para sección: Contactanos */
+
+
+/* Estilos para el footer */
+
+.footer_content {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: small;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 8vh;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+
+.footer_logo {
+    height: 1.5rem;
+    margin: 1%;
+}
+
+.footer_rrss {
+    height: 4vh;
+    margin: 1vh;
+}
