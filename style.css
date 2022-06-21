@@ -23,14 +23,15 @@ ul { list-style: none; }
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .grid-container {
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
 }
 
 .title {
@@ -73,7 +74,10 @@ ul { list-style: none; }
 /* Estilos para sección: Historia */
 
 .history_descriptions { display: inline-block; }
-.history_icons { height: 13vh; }
+.history_icons {
+    height: 13vh;
+    margin-top: 2vh;
+}
 .history_img { height: 90vh; }
 
 /* Estilos para sección: Productos */
@@ -121,4 +125,12 @@ ul { list-style: none; }
 .footer_rrss {
     height: 4vh;
     margin: 1vh;
+}
+
+/* Media queries (probado en Ipad Mini) */
+
+@media screen and (max-width: 800px) {
+    .grid-container_products { grid-template-columns: none; }
+    .grid-container { grid-template-columns: none; }
+    .history_img { height: 50vh; }
 }
